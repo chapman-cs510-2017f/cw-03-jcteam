@@ -1,14 +1,17 @@
 import sequences
 
-def test_fibonacci(result):
+def test_fibonacci():
     result=sequences.fibonacci(5)
     correct= [1,1,2,3,5]
     assert result==correct
     
 def test2_fibonacci():
-    result=sequences.fibonacci(-1)
-    correct = []
-    assert result==correct
+    try:
+        sequences.fibonacci(-1)
+    except:
+        return
+    print("did not throw exception")
+    assert False
 
     
 def test3_fibonacci():
