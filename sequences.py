@@ -30,14 +30,17 @@ def fibonacci(x):
     Returns:
         fiblist: The list of fibonacci sequence numbers up to the input value
     """
-    
-    fiblist = [1]
-    a,b = 1,1
-    for i in range(x-1):
-        a,b = b, a+b
-        fiblist.append(a)
-    return fiblist
-    
+    if x > 1:
+        try:
+            fiblist = [1]
+            a,b = 1,1
+            for i in range(x-1):
+                a,b = b, a+b
+                fiblist.append(a)
+            return fiblist
+        except:
+            #error
+            return
 
 
 
