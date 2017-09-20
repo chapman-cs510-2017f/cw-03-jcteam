@@ -32,9 +32,7 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
-
-**CHANGEME**
+This classwork was challenging. We have an issue with our sequences file when we test it because of the assert x>0 line, and we couldn't figure out a solution. The reading was helpful, but overall we still need work on this material.
 
 ## Honor Pledge
 
